@@ -1,0 +1,24 @@
+.hallOfFame {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .hallOfFame .date,
+  .hallOfFame .guesses {
+    width: 20%;
+    text-align: center;
+  }
+  
+  .hallOfFame tr:nth-child(even) {
+    background: #eee;
+  }
+
+  .celebration{
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: -50px;
+    background-image: url('img/img2.gif');
+  }
